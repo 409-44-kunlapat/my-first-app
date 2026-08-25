@@ -101,12 +101,10 @@ st.session_state.ans2_val = ans2
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 ans1 = st.text_input(
     "ข้อ 3: A 'm _  n g _'is a yellow fruit. 🥭" ,
-    value=st.session_state.ans3_val,
-)
+    value=st.session_state.ans3_val,)
 ans2 = st.text_input(
     "ข้อ 4: i like to read a 'b _ _ k'. 📚",
-    value=st.session_state.ans4_val,
-)
+    value=st.session_state.ans4_val,)
 
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
