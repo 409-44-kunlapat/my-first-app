@@ -79,11 +79,20 @@ ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
+ans3 = st.text_input(
+    "ข้อ 3: A sweet yellow fruit is `m _ n g o`. 🥭",
+    value=st.session_state.ans3_val,
+)
 
+ans4 = st.text_input(
+    "ข้อ 4: I like to read a `b _ _ k`. 📖",
+    value=st.session_state.ans4_val,
+)
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
-
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 
 
